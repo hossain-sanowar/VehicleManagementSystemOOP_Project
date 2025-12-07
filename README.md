@@ -51,94 +51,81 @@ VehicleManagementSystemOOP_Project/
 └── tests/
     ├── test_vehicle.py
     └── test_fleet_manager.py
+```
+
 🛠️ Installation & Setup
-bash
-Copy code
+
+```
 git clone https://github.com/hossain-sanowar/VehicleManagementSystemOOP_Project.git
 cd VehicleManagementSystemOOP_Project
 pip install -r requirements.txt
+```
+
 Ensure Python 3.8+ is installed.
 
 ▶️ Usage Examples
 Run the Application
-bash
-Copy code
+
+```
 python3 -m VehicleManagementSystemOOP_Project.main
+```
+
 Enable Logging Verbosity
-bash
-Copy code
+```
 python3 -m VehicleManagementSystemOOP_Project.main -v     # INFO
 python3 -m VehicleManagementSystemOOP_Project.main -vv    # DEBUG
+```
 Add a Vehicle
-bash
-Copy code
+```
 python3 -m VehicleManagementSystemOOP_Project.main add --type Car --brand Audi --year 2022 --save
+```
 Drive a Vehicle
-bash
-Copy code
+```
 python3 -m VehicleManagementSystemOOP_Project.main drive --brand Audi --km 30 --save
+```
 Generate Fleet Report
-bash
-Copy code
+```
 python3 -m VehicleManagementSystemOOP_Project.main report
+```
 Save & Load Fleet
-bash
-Copy code
+```
 python3 -m VehicleManagementSystemOOP_Project.main save
 python3 -m VehicleManagementSystemOOP_Project.main load
-🎯 OOP Principles Applied
-Abstraction – Vehicle defines the required interface
+```
 
-Inheritance – Car, Bike, Truck extend base functionality
+🎯 OOP Principles Applied:
+- Abstraction – Vehicle defines the required interface
+- Inheritance – Car, Bike, Truck extend base functionality
+- Polymorphism – Each subclass implements drive() differently
+- Encapsulation – Internal state protected via __fuel_level
 
-Polymorphism – Each subclass implements drive() differently
-
-Encapsulation – Internal state protected via __fuel_level
-
-Method Types
-
-Instance → drive()
-
-Class → from_dict()
-
-Static → is_motorized()
-
-Composition – FleetManager controls multiple vehicle objects
+Method Types:
+- Instance → drive()
+- Class → from_dict()
+- Static → is_motorized()
+- Composition – FleetManager controls multiple vehicle objects
 
 ✅ Advanced Engineering Features
-Configurable logging
-
-Robust error handling
-
-JSON persistence
-
-Full CLI support
-
-Unit testing with pytest
+- Configurable logging
+- Robust error handling
+- JSON persistence
+- Full CLI support
+- Unit testing with pytest
 
 📖 Interview Notes
-Abstraction vs Encapsulation
-
-Abstraction hides implementation details
-
-Encapsulation hides internal data
-
+- Abstraction vs Encapsulation
+- Abstraction hides implementation details
+- Encapsulation hides internal data
 Real-World Analogy
-
-ATM Machine → Abstraction
-
-Bank Account Balance → Encapsulation
+- ATM Machine → Abstraction
+- Bank Account Balance → Encapsulation
 
 🚀 Future Enhancements
-GUI interface (Tkinter / Streamlit)
-
-Database persistence (SQLite / PostgreSQL)
-
-REST API integration (FastAPI / Flask)
-
-CI/CD automation with GitHub Actions
-
-ML-based vehicle analytics & forecasting
+- GUI interface (Tkinter / Streamlit)
+- Database persistence (SQLite / PostgreSQL)
+- REST API integration (FastAPI / Flask)
+- CI/CD automation with GitHub Actions
+- ML-based vehicle analytics & forecasting
 
 👨‍💻 Author
 Md. Sanowar Hossain
@@ -147,27 +134,5 @@ Aspiring Machine Learning Engineer | Python Developer
 
 ⭐ If this project helped you, please consider giving it a star!
 
-yaml
-Copy code
 
----
 
-## ✅ What I Improved
-- Fixed formatting & broken markdown
-- Cleaned OOP terminology
-- Added **installation section**
-- Added **ML relevance**
-- Improved **project structure layout**
-- Removed repetition
-- Made it **recruiter & portfolio ready**
-
----
-
-If you want, I can also:
-✅ Add a **GitHub Actions CI/CD workflow**
-✅ Add **badges (build, tests, Python version)**
-✅ Write a **dedicated ML extension README**
-✅ Add a **diagram section for OOP architecture**
-✅ Prepare a **README for Kaggle/ML portfolios**
-
-Just tell me what you’d like to add next 🚀
