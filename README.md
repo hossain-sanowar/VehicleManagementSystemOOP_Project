@@ -2,7 +2,7 @@
 
 A production-style Python project demonstrating **core Object-Oriented Programming (OOP) principles** with **real-world engineering features** such as logging, error handling, JSON persistence, CLI interaction, and unit testing.
 
-This project is designed to reflect how **scalable backend systems** are structured—making it ideal for **portfolio, interview preparation, and ML engineering foundations**.
+This project is designed to reflect how **scalable backend systems** are structured, making it ideal for **portfolio, interview preparation, and ML engineering foundations**.
 
 ---
 
